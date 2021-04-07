@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url("../Imagenes/Monoblock.jfif") no-repeat center center fixed;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+#cabecera {
+	background: rgba(56,56,56,0.5);
+	font-family: 'Raleway', Arial;
+	color: white;
+	font-size: 1.2rem;
+	height: 25%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+}
+.cuerpo {
+	height: 65%;
+}
+#cuerpo {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+}
+#cuerpo div {
+	width: 20rem;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+#cuerpo a {
+	font-family: 'Raleway', Arial;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: bold;
+	border-radius: 50px;
+	border: rgba(255,255,255,0.5) 4px solid;
+	display: block;
+	padding: 2.5vh 0;
+	margin: 3vh 0;
+	cursor:pointer;
+	-webkit-transition:all .45s ease; 
+	-moz-transition:all .45s ease; 
+	-o-transition: all .45s ease; 
+	transition: all .45s ease;
+}
+#cuerpo a:hover {
+	background: rgba(56,56,56,0.5);
+}
+#cuerpoForm {
+	background: rgba(56,56,56,0.5);
+	font-family: 'Raleway', Arial;
+	color: white;
+}
+#cuerpoForm div{
+	padding: 4% 0;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+}
+#cuerpoForm div h2 {
+	font-size: 1.8rem;
+	text-align: center;
+}
+#cuerpoForm a {
+	color: black;
+	margin-left: 5%;
+	padding: 0.6rem 2rem;
+	background: rgba(255,255,255,0.3);
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+#cuerpoForm a:hover{
+	color: white;
+	background: rgba(0,0,0,0.3);
+}
+.formu label, .formu input{
+	display: block;
+	font-size: 1rem;
+}
+.formu label {
+	margin-top: 2vh;
+}
+.formu input[type="text"], .formu input[type="password"] {
+	padding: 1.5vh 1.5vw;
+	width: 15rem;
+	outline: none;
+	border: none;
+	background: none;
+	border: 2px solid rgba(255,255,255,0.5);
+	color: white;
+	border-radius: 50px;
+}
+.formu div {
+	text-align: center;
+}
+.formu div input{
+	font-family: 'Raleway', Arial;
+	border: none;
+	background: none;
+	border: 1px solid black;
+	padding: 1.4vh 3vw;
+	margin-top: 2vh;
+	border-radius: 15px;
+	box-shadow: 6px 6px 2px black;
+	font-size: 1rem;
+	color: white;
+}
+#infoForm div input {
+	background: rgb(50,80,102);
+}
+#infoForm div input:hover {
+	background: black;
+	box-shadow: none;
+}
+#infoForm input[type="text"]:focus, #infoForm input[type="password"]:focus {
+	background: rgba(50,80,102,0.8);
+	color: white;
+}
+#quimicaForm div input {
+	background: rgb(84,102,79);
+}
+#quimicaForm div input:hover {
+	background: black;
+	box-shadow: none;
+}
+#quimicaForm input[type="text"]:focus, #quimicaForm input[type="password"]:focus {
+	background: rgba(84,102,79,0.8);
+	color: white;
+}
+#fisicaForm div input {
+	background: rgb(119,92,79);
+}
+#fisicaForm div input:hover {
+	background: black;
+	box-shadow: none;
+}
+#fisicaForm input[type="text"]:focus, #fisicaForm input[type="password"]:focus {
+	background: rgba(119,92,79,0.8);
+	color: white;
+}
+#pie {
+	background: rgb(50,80,102);
+	height: 10%;
+	color: white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	font-family: 'Slabo 27px', serif;
+}
